@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'xolonium-bold';
+    src: url('xolonium-bold.eot');
+    src: url('xolonium-bold.eot?#iefix') format('embedded-opentype'),
+         url('xolonium-bold.woff') format('woff'),
+         url('xolonium-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'xolonium-regular';
+    src: url('xolonium-regular.eot');
+    src: url('xolonium-regular.eot?#iefix') format('embedded-opentype'),
+         url('xolonium-regular.woff') format('woff'),
+         url('xolonium-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

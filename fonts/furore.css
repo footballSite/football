@@ -1,0 +1,12 @@
+
+
+@font-face {
+    font-family: 'furoreregular';
+    src: url('furore.eot');
+    src: url('furore.eot?#iefix') format('embedded-opentype'),
+         url('furore.woff') format('woff'),
+         url('furore.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
