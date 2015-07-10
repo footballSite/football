@@ -3,19 +3,19 @@
 @font-face
 {
     font-family:furore;
-    src: url('/football_site/fonts/furore.eot');
-    src: url('/football_site/fonts/furore.eot?#iefix') format('embedded-opentype'),
-         url('/football_site/fonts/furore.woff') format('woff'),
-         url('/football_site/fonts/furore.ttf') format('truetype');
+    src: url('/football/fonts/furore.eot');
+    src: url('/football/fonts/furore.eot?#iefix') format('embedded-opentype'),
+         url('/football/fonts/furore.woff') format('woff'),
+         url('/football/fonts/furore.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face
 {
     font-family:norwester;
-    src: url('/football_site/fonts/norwester.eot');
-    src: url('/football_site/fonts/norwester.woff') format('woff'),
-         url('/football_site/fonts/norwester.ttf') format('truetype');
+    src: url('/football/fonts/norwester.eot');
+    src: url('/football/fonts/norwester.woff') format('woff'),
+         url('/football/fonts/norwester.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,10 +23,10 @@
 @font-face
 {	
 	font-family:xolonium-bold;
-    src: url('/football_site/fonts/xolonium-bold.eot');
-    src: url('/football_site/fonts/xolonium-bold.eot?#iefix') format('embedded-opentype'),
-         url('/football_site/fonts/xolonium-bold.woff') format('woff'),
-         url('/football_site/fonts/xolonium-bold.ttf') format('truetype');
+    src: url('/football/fonts/xolonium-bold.eot');
+    src: url('/football/fonts/xolonium-bold.eot?#iefix') format('embedded-opentype'),
+         url('/football/fonts/xolonium-bold.woff') format('woff'),
+         url('/football/fonts/xolonium-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -34,10 +34,10 @@
 @font-face
 {
     font-family:xolonium-regular;
-    src: url('/football_site/fonts/xolonium-regular.eot');
-    src: url('/football_site/fonts/xolonium-regular.eot?#iefix') format('embedded-opentype'),
-         url('/football_site/fonts/xolonium-regular.woff') format('woff'),
-         url('/football_site/fonts/xolonium-regular.ttf') format('truetype');
+    src: url('/football/fonts/xolonium-regular.eot');
+    src: url('/football/fonts/xolonium-regular.eot?#iefix') format('embedded-opentype'),
+         url('/football/fonts/xolonium-regular.woff') format('woff'),
+         url('/football/fonts/xolonium-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,10 +45,10 @@
 @font-face
 {	
 	font-family:playbold;
-    src: url('/football_site/fonts/play-bold.eot');
-    src: url('/football_site/fonts/play-bold.eot?#iefix') format('embedded-opentype'),
-         url('/football_site/fonts/play-bold.woff') format('woff'),
-         url('/football_site/fonts/play-bold.ttf') format('truetype');
+    src: url('/football/fonts/play-bold.eot');
+    src: url('/football/fonts/play-bold.eot?#iefix') format('embedded-opentype'),
+         url('/football/fonts/play-bold.woff') format('woff'),
+         url('/football/fonts/play-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -56,10 +56,10 @@
 @font-face
 {
     font-family:playregular;
-    src: url('/football_site/fonts/play-regular.eot');
-    src: url('/football_site/fonts/play-regular.eot?#iefix') format('embedded-opentype'),
-         url('/football_site/fonts/play-regular.woff') format('woff'),
-         url('/football_site/fonts/play-regular.ttf') format('truetype');
+    src: url('/football/fonts/play-regular.eot');
+    src: url('/football/fonts/play-regular.eot?#iefix') format('embedded-opentype'),
+         url('/football/fonts/play-regular.woff') format('woff'),
+         url('/football/fonts/play-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
