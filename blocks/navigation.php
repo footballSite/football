@@ -3,9 +3,9 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>																						<!-- Кодування -->
    <title></title>
-   <script type="text/javascript" src="/football_site/js/jquery-1.11.1.js"></script>
-   <script type="text/javascript" src="/football_site/js/nav_script.js"></script>
-   <link type="text/css" rel="stylesheet" href="/football_site/styles/style_blocks.css">																						<!-- Посилання на таблицю стилів -->
+   <script type="text/javascript" src="/football/js/jquery-1.11.1.js"></script>
+   <script type="text/javascript" src="/football/js/nav_script.js"></script>
+   <link type="text/css" rel="stylesheet" href="/football/styles/style_blocks.css">																						<!-- Посилання на таблицю стилів -->
 </head>
 <body>
 
@@ -13,8 +13,8 @@
 			<div id="nav">
 				
 				<ul id="menu">
-					<li><span><a href="/football_site/index.php">Головна</a></li></span>
-					<li><span><a href="/football_site/news.php">Новини</a></li></span>
+					<li><span><a href="/football/index.php">Головна</a></li></span>
+					<li><span><a href="/football/news.php">Новини</a></li></span>
 					<li><span><a href="#">Клуби</a></span>
 						<ul>
 							<li><a href="#">Європа</a></li>

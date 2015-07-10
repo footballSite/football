@@ -197,3 +197,57 @@ h2
 {
 	text-align:center;
 }
+.news_container
+{
+	width:700px;
+	border-radius:50px 25px;
+	overflow:hidden;
+	border-bottom:2px dashed black;
+	margin-bottom:15px;
+}	
+
+.news_image
+{
+	width:220px;
+	height:160px;
+	float:left;
+	border-radius:50px 25px; 
+	background-color:lime;
+	margin:10px;
+}
+
+.news_date, .news_name, .news_anotation, .news_more
+{
+	width:450px;
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.news_date
+{	
+	border-radius:0 25px 0 0;
+	background-color:green;
+}
+
+.news_name
+{
+	background-color:lime;
+}
+
+.news_anotation
+{
+	background-color:yellow;
+}
+
+.news_more
+{
+	border-radius:0 0 25px;
+	background-color:red;
+	margin-bottom:10px;
+}
+
+img
+{
+	border-radius:50px 25px;
+}	

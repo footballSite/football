@@ -3,7 +3,7 @@
 	
 	<title>Новини</title>
 	<META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<link type="text/css" rel="stylesheet" href="/football_site/styles/style_blocks.css">
+	<link type="text/css" rel="stylesheet" href="/football/styles/style_blocks.css">
 
 	</head>
 <body>
@@ -11,11 +11,11 @@
 	<div class="header"> <!-- Початок "шапки" сайту -->
 		<p>Шапка</p>
 	</div> <!-- Кінець "шапки" сайту -->
-	<h1>YEs</h1>
+
 	<div class="container"> <!-- Початок блоку контейнера для навігації і контенту -->
 		
 		<div class="navigation"> <!-- Початок меню -->
-		<?php include($_SERVER["DOCUMENT_ROOT"]."/football_site/blocks/navigation.php") ?>				
+		<?php include($_SERVER["DOCUMENT_ROOT"]."/football/blocks/navigation.php") ?>				
 		</div> <!-- Кінець меню -->
 		
 		<div class="content"> <!-- Початок контенту -->
@@ -28,8 +28,23 @@
 				while($row = mysql_fetch_array($result))
 					{
 						 $name = $row['name'];
+						 $date = $row['adddate'];
+						 $anotation = $row['anotation'];
+						 $photo = $row['photo'];
 						 $link = "<a href='readnews.php?id=".$row['id']."'>".$name . "</a>";
-						 echo $link . "<br>";
+						 echo "<div class='news_container'>
+						       <div class='news_image'>
+                               <img src='".$photo."'/>
+							   </div>
+							   <span class='news_date'>".$date."
+							   </span>
+							   <span class='news_name'>".$name."
+							   </span>
+							   <span class='news_anotation'>".$anotation."
+							   </span>
+							   <span class='news_more'><a href='#'>More...</a>
+							   </span>
+							   </div>";
 					}
 				mysql_close();
 			?>

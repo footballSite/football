@@ -4,20 +4,87 @@
 
 <style type=text/css>
 
-div
+.news_container
 {
-	background-color:#AEDE90;
-	height:500px;
-	width:500px;
+	width:700px;
+	border-radius:50px 25px;
+	overflow:hidden;
+	background-color:blue;
+}	
+
+.news_image
+{
+	width:220px;
+	height:160px;
+	float:left;
+	border-radius:50px 25px; 
+	background-color:lime;
+	margin:10px;
 }
+
+.news_date, .news_name, .news_anotation, .news_more
+{
+	width:450px;
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.news_date
+{	
+	border-radius:0 25px 0 0;
+	background-color:green;
+}
+
+.news_name
+{
+	background-color:lime;
+}
+
+.news_anotation
+{
+	background-color:yellow;
+}
+
+.news_more
+{
+	border-radius:0 0 25px;
+	background-color:red;
+	margin-bottom:10px;
+}
+
+img
+{
+	border-radius:50px 25px;
+}	
 
 </style>
 
 </head>
 
 <body>
+<div class="news_container">
 
-<div>
+
+<div class="news_image">
+<img src="/football/img/ukraine_blue.png"/>
+</div>
+
+<span class="news_date">
+2015-12-32
+</span>
+
+<span class="news_name">
+This is name of our publication
+</span>
+
+<span class="news_anotation">
+qwert yuiopasdfgh jklmnbvcxzasd weerygjbibmbm kknfayawbdtevfg bvbvgvcrexecrvtyb numio,oiutvrcexex wzwdftgyhuim  hbg vfcxsrctc efen nefnuewnf newufn nfiuef ksmkdfdjnbfyfunejn fjenjfbeyfyeb grgnregmckasm.
+</span>
+
+<span class="news_more">
+<a href="#">More...</a>
+</span>
 
 </div>
 

@@ -3,7 +3,7 @@
 	
 	<title>Новини</title>
 	<META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<link type="text/css" rel="stylesheet" href="/football_site/styles/style_blocks.css">
+	<link type="text/css" rel="stylesheet" href="/football/styles/style_blocks.css">
 
 	</head>
 <body>
@@ -15,7 +15,7 @@
 	<div class="container"> <!-- Початок блоку контейнера для навігації і контенту -->
 		
 		<div class="navigation"> <!-- Початок меню -->
-		<?php include($_SERVER["DOCUMENT_ROOT"]."/football_site/blocks/navigation.php") ?>				
+		<?php include($_SERVER["DOCUMENT_ROOT"]."/football/blocks/navigation.php") ?>				
 		</div> <!-- Кінець меню -->
 		
 		<div class="content"> <!-- Початок контенту -->
